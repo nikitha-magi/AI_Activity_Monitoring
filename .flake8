@@ -1,0 +1,11 @@
+[flake8]
+# Set the maximum line length to a more modern standard
+max-line-length = 100
+
+# Exclude directories you don't want to check
+exclude =
+    .git,
+    __pycache__,
+    notebooks/,
+    venv/,
+    src/utils/string_int_label_map_pb2.py
