@@ -3,6 +3,21 @@ Deep Learning based Activity Monitoring System for ICU Patients
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+### ✨ **Project Papers**
+
+
+[Activity Monitoring for ICU Patients Using Deep Learning and Image Processing](https://link.springer.com/article/10.1007/s42979-020-00147-6)
+
+[Survey and high level design of activity monitoring for icu patients](https://www.ijltet.org/journal_details.php?id=949&j_id=4831)
+
+---
+
+### ✨ **Project output**
+
+Abnormality Detection output [(YouTube)](https://www.youtube.com/watch?v=rC2nuQuBDZM)
+
+---
+
 ### ✨ **Project Overview**
 
 This project presents a three-stage deep learning pipeline for real-time activity recognition. The system first utilizes a YOLO (You Only Look Once) model to perform robust human localization within a video frame. Once a person is identified, a second model is employed to detect the position of their hands. The cropped hand region is then passed to a third stage custom-trained Keras classification model to determine the activity being performed (e.g., "Normal" or "Abnormal"). This approach allows for efficient and focused analysis, making it suitable for applications in safety monitoring, human-computer interaction, and automated surveillance.
@@ -18,6 +33,7 @@ This project presents a three-stage deep learning pipeline for real-time activit
 
 ![Human and Hand detected](data/normal_2.jpg)
 ![Human and Hand detected](data/abnormal_3.jpg)
+
 ---
 
 ### 💻 **Tech Stack**
@@ -43,7 +59,7 @@ This project presents a three-stage deep learning pipeline for real-time activit
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/nikitha-magi/AI_Activity_Monitoring.git](https://github.com/nikitha-magi/AI_Activity_Monitoring.git)
+    git clone https://github.com/nikitha-magi/AI_Activity_Monitoring.git
     cd AI_Activity_Monitoring
     ```
 
@@ -57,6 +73,6 @@ This project presents a three-stage deep learning pipeline for real-time activit
     ```bash
     pip install -r requirements.txt
     ```
-Note: all the weights are included in this repo
+Note: all the pre trained weights are included in this repo
 
 ---
