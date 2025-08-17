@@ -27,12 +27,13 @@ This project presents a three-stage deep learning pipeline for real-time activit
 ### 📸 **System in Action**
 
 *Human and Hand Detection:*
-![Human and Hand detected](data\human_hand_detected.jpg)
+![Human and Hand detected](data/human_hand_detected.jpg)
 
 *Activity Classification Result:*
 
-![Human and Hand detected](data\normal_2.jpg)
-![Human and Hand detected](data\abnormal_3.jpg)
+![Human and Hand detected](data/normal_2.jpg)
+![Human and Hand detected](data/abnormal_3.jpg)
+
 ---
 
 ### 💻 **Tech Stack**
